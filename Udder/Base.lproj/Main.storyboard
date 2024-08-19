@@ -17,7 +17,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="heartitemenabled" translatesAutoresizingMaskIntoConstraints="NO" id="Upi-fk-tiN">
-                                <rect key="frame" x="76" y="533" width="240" height="128"/>
+                                <rect key="frame" x="76" y="597" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="starfilled" translatesAutoresizingMaskIntoConstraints="NO" id="NhB-tv-Nmu">
+                                <rect key="frame" x="76" y="411" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -32,6 +36,7 @@
     </scenes>
     <resources>
         <image name="heartitemenabled" width="30" height="30"/>
+        <image name="starfilled" width="37" height="35"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
